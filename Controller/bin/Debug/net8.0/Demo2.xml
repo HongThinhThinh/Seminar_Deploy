@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Demo2</name>
+    </assembly>
+    <members>
+        <member name="M:Demo2.Controllers.CategoriesController.GetCategories">
+            <summary>
+            Get all categories
+            </summary>
+        </member>
+        <member name="M:Demo2.Controllers.CategoriesController.GetCategory(System.Int32)">
+            <summary>
+            Get category by id
+            </summary>
+        </member>
+        <member name="M:Demo2.Controllers.CategoriesController.GetCategoryWithProducts(System.Int32)">
+            <summary>
+            Get category with products
+            </summary>
+        </member>
+        <member name="M:Demo2.Controllers.CategoriesController.CreateCategory(Services.DTOs.CreateCategoryDto)">
+            <summary>
+            Create a new category
+            </summary>
+        </member>
+        <member name="M:Demo2.Controllers.CategoriesController.UpdateCategory(System.Int32,Services.DTOs.UpdateCategoryDto)">
+            <summary>
+            Update an existing category
+            </summary>
+        </member>
+        <member name="M:Demo2.Controllers.CategoriesController.DeleteCategory(System.Int32)">
+            <summary>
+            Delete a category
+            </summary>
+        </member>
+        <member name="M:Demo2.Controllers.ProductsController.GetProducts">
+            <summary>
+            Get all products
+            </summary>
+        </member>
+        <member name="M:Demo2.Controllers.ProductsController.GetProduct(System.Int32)">
+            <summary>
+            Get product by id
+            </summary>
+        </member>
+        <member name="M:Demo2.Controllers.ProductsController.GetProductsByCategory(System.Int32)">
+            <summary>
+            Get products by category
+            </summary>
+        </member>
+        <member name="M:Demo2.Controllers.ProductsController.SearchProducts(System.String)">
+            <summary>
+            Search products
+            </summary>
+        </member>
+        <member name="M:Demo2.Controllers.ProductsController.CreateProduct(Services.DTOs.CreateProductDto)">
+            <summary>
+            Create a new product
+            </summary>
+        </member>
+        <member name="M:Demo2.Controllers.ProductsController.UpdateProduct(System.Int32,Services.DTOs.UpdateProductDto)">
+            <summary>
+            Update an existing product
+            </summary>
+        </member>
+        <member name="M:Demo2.Controllers.ProductsController.DeleteProduct(System.Int32)">
+            <summary>
+            Delete a product
+            </summary>
+        </member>
+        <member name="T:Demo2.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:Demo2.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Demo2.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Demo2.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Demo2.Migrations.InitialCreate2">
+            <inheritdoc />
+        </member>
+        <member name="M:Demo2.Migrations.InitialCreate2.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Demo2.Migrations.InitialCreate2.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Demo2.Migrations.InitialCreate2.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

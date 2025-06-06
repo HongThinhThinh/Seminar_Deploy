@@ -1,0 +1,104 @@
+### Test Demo2 API
+### Base URL: http://localhost:5263
+
+### Get all categories
+GET {{baseUrl}}/api/categories
+Accept: application/json
+
+###
+
+### Get category by ID
+GET {{baseUrl}}/api/categories/1
+Accept: application/json
+
+###
+
+### Get category with products
+GET {{baseUrl}}/api/categories/1/products
+Accept: application/json
+
+###
+
+### Create new category
+POST {{baseUrl}}/api/categories
+Content-Type: application/json
+
+{
+  "name": "Home & Garden",
+  "description": "Home and garden products"
+}
+
+###
+
+### Update category
+PUT {{baseUrl}}/api/categories/1
+Content-Type: application/json
+
+{
+  "name": "Electronics Updated",
+  "description": "Updated electronic devices and gadgets"
+}
+
+###
+
+### Get all products
+GET {{baseUrl}}/api/products
+Accept: application/json
+
+###
+
+### Get product by ID
+GET {{baseUrl}}/api/products/1
+Accept: application/json
+
+###
+
+### Get products by category
+GET {{baseUrl}}/api/products/category/1
+Accept: application/json
+
+###
+
+### Search products
+GET {{baseUrl}}/api/products/search?searchTerm=laptop
+Accept: application/json
+
+###
+
+### Create new product
+POST {{baseUrl}}/api/products
+Content-Type: application/json
+
+{
+  "name": "Gaming Mouse",
+  "description": "High-precision gaming mouse",
+  "price": 79.99,
+  "stock": 150,
+  "categoryId": 1
+}
+
+###
+
+### Update product
+PUT {{baseUrl}}/api/products/1
+Content-Type: application/json
+
+{
+  "name": "Gaming Laptop Updated",
+  "description": "High-performance gaming laptop with RTX graphics",
+  "price": 1299.99,
+  "stock": 25,
+  "categoryId": 1
+}
+
+###
+
+### Delete product (soft delete)
+DELETE {{baseUrl}}/api/products/1
+
+###
+
+### Delete category (soft delete)
+DELETE {{baseUrl}}/api/categories/3
+
+@baseUrl = http://localhost:5263
